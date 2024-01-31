@@ -1,7 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Admin Webpage</title>
+        <style>
+            .form-container {
+                text-align: justify;
+            }
+        </style>
     </head>
-
+    <body>
+        <h1>Administrator Control Panel</h1>
+        <div class="form-container">
+            <form action="/url" method="post">
+                Username: <input type="text" name="username"><br>
+                Password: <input type="password" name="password"><br>
+                <input type="submit" value="Log In" style="width: auto;">
+            </form>
+        </div>
+    </body>
 </html>
