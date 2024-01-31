@@ -7,16 +7,30 @@
                 text-align: left;
             }
         </style>
+        <link rel="stylesheet" href="tables.css">
     </head>
     <body>
         <h1>Let's Connect</h1>
-        <div class="contact-form">
-            <form action="/url" method="get">
-                Name: <input type="text" name="username"> <br> 
-                Email: <input type="email" name="email"> <br>
-                Phone Number: <input type="tel" name="phone_numb"> <br>
-                Message: <textarea name="message" id="4" ></textarea>
-            </form>
-        </div>
+        <table>
+            <tr>
+                <th><a href="index.html">Home</a></th>
+                <th><a href="resume.html">Resume</a></th>
+                <th><a href="projects.html">Projects</a></th>
+                <th><a href="contact.html">Contact</a></th>
+                <th><a href="social.html">Social</a></th> 
+                <th><a href="admin.html">Admin</a></th>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <form action="/url" method="get" class="contact-form">
+                        Name: <input type="text" name="username"> <br> 
+                        Email: <input type="email" name="email"> <br>
+                        Phone Number: <input type="tel" name="phone_numb"> <br>
+                        Message: <textarea name="message" id="4" ></textarea>
+                    </form>
+                </td>
+            </tr>
+
+        </table>
     </body>
 </html>

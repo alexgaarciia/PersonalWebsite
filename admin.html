@@ -7,15 +7,29 @@
                 text-align: justify;
             }
         </style>
+        <link rel="stylesheet" href="tables.css">
     </head>
     <body>
         <h1>Administrator Control Panel</h1>
-        <div class="form-container">
-            <form action="/url" method="post">
-                Username: <input type="text" name="username"><br>
-                Password: <input type="password" name="password"><br>
-                <input type="submit" value="Log In" style="width: auto;">
-            </form>
-        </div>
+        <table>
+            <tr>
+                <th><a href="index.html">Home</a></th>
+                <th><a href="resume.html">Resume</a></th>
+                <th><a href="projects.html">Projects</a></th>
+                <th><a href="contact.html">Contact</a></th>
+                <th><a href="social.html">Social</a></th> 
+                <th><a href="admin.html">Admin</a></th>
+            </tr>
+            <tr>
+                <td colspan="6">      
+                    <form action="/url" method="post" class="form-container">
+                        Username: <input type="text" name="username"><br>
+                        Password: <input type="password" name="password"><br>
+                        <input type="submit" value="Log In" style="width: auto;">
+                    </form>      
+                </td>
+            </tr>
+
+        </table>
     </body>
 </html>
