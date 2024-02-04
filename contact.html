@@ -2,11 +2,6 @@
 <html lang="en">
     <head>
         <title>Contact Webpage</title>
-        <style>
-            .contact-form {
-                text-align: left;
-            }
-        </style>
         <link rel="stylesheet" href="tables.css">
     </head>
     <body>
@@ -21,16 +16,13 @@
                 <th><a href="admin.html">Admin</a></th>
             </tr>
             <tr>
-                <td colspan="6">
-                    <form action="/url" method="get" class="contact-form">
-                        Name: <input type="text" name="username"> <br> 
-                        Email: <input type="email" name="email"> <br>
-                        Phone Number: <input type="tel" name="phone_numb"> <br>
-                        Message: <textarea name="message" id="4" ></textarea>
-                    </form>
-                </td>
+                <td colspan="6" style="text-align: left;">
+                    Name: <input type="text" name="username"> <br><br>
+                    Email: <input type="text" name="email"> <br><br>
+                    Phone Number: <input type="text" name="phone_numb"> <br><br>
+                    Message: <textarea name="message" cols="40" rows="10"></textarea>
+                </td>                
             </tr>
-
         </table>
     </body>
 </html>
